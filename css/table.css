@@ -1,0 +1,29 @@
+.table{
+    width: 100%;
+    user-select: none;
+    text-align: left;
+}
+
+.table th{
+    height: 50px;
+    background-color: var(--primary-color);
+    color: white;
+    padding-left: 20px;
+    font-size: 1.2rem;    
+}
+.table td{
+    height: 50px;
+    padding-left: 20px;
+    color: white;
+}
+
+.table th:last-child,
+.table td:last-child{
+    padding: 0;
+    min-width: 140px;
+    text-align: center;
+}
+
+.table tr.name:hover{
+    background-color: var(--primary-color);
+}

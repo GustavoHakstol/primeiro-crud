@@ -1,0 +1,38 @@
+.button{
+    height: 40px;
+    padding: 7px 12px;
+    background-color: black;
+    display: inline-block;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: box-shadow .6s ease;
+    border: none;
+}
+
+.button.cadastro{
+    background-color: #3c4e82;
+    color: white;
+}
+
+.button.editar{
+    background-color: #13ce66;
+}
+
+.button.excluir{
+    background-color: #ff4949;
+}
+
+.button:hover{
+    box-shadow: inset 200px 0 0 #00000055;
+}
+
+.edit{
+    border: none;
+    border-radius: 50px;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    padding: 10px 410px;
+    margin: 1px;
+}
