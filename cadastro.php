@@ -25,8 +25,8 @@
             <input class="button editar" type="submit" value="Cadastrar">
         </form>
         <form action="index.php">
-                <input class="button excluir" type="submit" value="Cancelar">
-            </form>
+            <input class="button excluir" type="submit" value="Cancelar">
+        </form>
     </main>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
