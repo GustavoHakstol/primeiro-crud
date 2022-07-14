@@ -34,11 +34,11 @@
         ?>
             <form action="editar2.php" method="post">
                 <input type="hidden" name="id" value="<?php echo $id; ?>">
-                <input class="edit" type="text" name="nome" value="<?php echo $nome; ?>">
-                <input class="edit" type="number" name="idade" value="<?php echo $idade; ?>">
-                <input class="edit" type="text" name="genero" value="<?php echo $genero; ?>">
-                <input class="edit" type="number" name="telefone" value="<?php echo $telefone; ?>">
-                <input class="edit" type="text" name="estadocivil" value="<?php echo $estadocivil; ?>">
+                <input class="edit" type="text" name="nome" value="<?php echo $nome; ?>" placeholder="Nome">
+                <input class="edit" type="text" name="idade" value="<?php echo $idade; ?>" placeholder="Idade">
+                <input class="edit" type="text" name="genero" value="<?php echo $genero; ?>" placeholder="Genero">
+                <input class="edit" type="text" name="telefone" value="<?php echo $telefone; ?>" placeholder="Telefone">
+                <input class="edit" type="text" name="estadocivil" value="<?php echo $estadocivil; ?>" placeholder="Estado Civil">
                 <input class="button editar" type="submit" value="Editar">
             </form>
             <form action="index.php">

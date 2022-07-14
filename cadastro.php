@@ -17,11 +17,11 @@
     </header>
     <main>
         <form action="criar.php" method="post">
-            <input class="edit" type="text" name="nome">
-            <input class="edit" type="text" name="idade">
-            <input class="edit" type="text" name="genero">
-            <input class="edit" type="text" name="telefone">
-            <input class="edit" type="text" name="estadocivil">
+            <input class="edit" type="text" name="nome" placeholder="Nome">
+            <input class="edit" type="text" name="idade" placeholder="Idade">
+            <input class="edit" type="text" name="genero" placeholder="Genero">
+            <input class="edit" type="text" name="telefone" placeholder="Telefone">
+            <input class="edit" type="text" name="estadocivil" placeholder="Estado Civil">
             <input class="button editar" type="submit" value="Cadastrar">
         </form>
         <form action="index.php">
